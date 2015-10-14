@@ -4,7 +4,12 @@ html, body {
   overflow: visible;
 }
 
-body {
+.navbar .navbar-fixed-top {
+  background-color: rgba(16, 10, 4, 0.8);
+  margin-bottom: 0px;
+}
+
+/*.jumbotron {
   background-image: url(IMG_8398.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,57 +17,38 @@ body {
   color: #000;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
+
+}*/
+
+.jumbotron {
+  background: rgba(16, 10, 4, 0.8);
+  margin-bottom: 0px;
 }
 
-#h1left {
+.jumbotron h1 {
     color: #e7d1bc;
     font-family: 'PT Serif', serif;
     font-weight: 900;
     font-style: italic;
     font-size: 88px;
-    text-align: right;
-    padding-top: 40px;
-    padding-bottom: 75px;
-    margin-right:25px;
-}
-
-#h1right{
-    color: #e7d1bc;
-    font-family: 'PT Serif', serif;
-    font-weight: 900;
-    font-style: italic;
-    font-size:88px;
     text-align: left;
-    padding-top: 40px;
-    padding-bottom: 75px;
+    padding-bottom: 50px;
+    margin-right: 25px;
 }
 
-
-#profile_pic {
-  width: 400px;
-  margin-left: 150px;
-  margin-top: -15px;
-}
-
-.container-fluid{
-    background: rgba(16, 10, 4, 0.8);
-    height: 90%;
-    line-height: 1.3;
-    position: fixed;
-    /*height: 100%;*/
-    top: 40px;
-    bottom: 40px;
-    left: 40px;
-    right: 40px;
-}
-
-p {
-    margin-left: 100px;
-    margin-right: 50px;
+.jumbotron p {
+    text-align: left;
+    margin-right: 100px;
     font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 20px;
     color: #e7d1bc;
+}
+
+#profile_pic {
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 15px;
 }
 
 #external_links {
@@ -73,10 +59,12 @@ p {
   color: #e7d1bc;
 }
 
+#projects {
+  background: #e7d1bc;
+}
+
 #resume {
-  padding-right: 20px;
-  padding-top: 0px;
-  padding-bottom: 10px;
+  background: rgba(16, 10, 4, 0.5);
 }
 
 a {
