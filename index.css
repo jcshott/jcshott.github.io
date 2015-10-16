@@ -5,7 +5,8 @@ html, body {
 }
 
 .navbar .navbar-fixed-top {
-  background-color: rgba(16, 10, 4, 0.8);
+  background-color: transparent;
+  /*background-color: rgba(16, 10, 4, 0.8);*/
   margin-bottom: 0px;
   margin-top: 30px;
 }
@@ -13,25 +14,60 @@ html, body {
 .navbar-nav li a {
   text-align: right;
   font-family: 'PT Serif', serif;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 20px;
   padding-top: 25px;
 }
 
-/*.icon-bar {
-  background-color: #E8410C;
-  size: 100px;
-}*/
 .navbar-toggle .icon-bar {
   background-color: #E8410C;
   height: 5px;
   width: 30px;
 }
+
+/*method to keep navbar always collapsed*/
+@media (max-width: 2000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+    }
+    .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+      display:block !important;
+  }
+}
+
+
 .jumbotron {
   background: rgba(16, 10, 4, 0.8);
   margin-bottom: 0px;
-  height: 700px;
-  padding-top: 100px;
+  min-height: 750px;
+  padding-top: 150px;
 }
 
 .jumbotron h1 {
@@ -41,8 +77,8 @@ html, body {
     font-style: italic;
     font-size: 88px;
     text-align: left;
-    padding-bottom: 50px;
     margin-right: 25px;
+    padding-bottom: 50px;
 }
 
 .jumbotron p {
@@ -57,24 +93,29 @@ html, body {
 #profile_pic {
   width: 400px;
   margin-top: 15px;
+  margin-left: 50px;
 }
 
-/*#external_links {
+.sections h1 {
   text-align: center;
-  font-family: 'PT Serif', serif;
-  font-weight: 700;
-  font-size: 33px;
-  color: #e7d1bc;
-}*/
+}
+
+p.lead {
+  text-align: center;
+}
 
 #projects {
   background: #e7d1bc;
 }
 
+
 #resume {
   background: rgba(16, 10, 4, 0.5);
 }
 
+#contact {
+  background: #e7d1bc;
+}
 
 a {
   color: #E8410C;
