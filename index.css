@@ -4,65 +4,6 @@ html, body {
   /*overflow: visible;*/
 }
 
-.navbar .navbar-fixed-top {
-  background-color: transparent;
-  /*background-color: rgba(16, 10, 4, 0.8);*/
-  margin-bottom: 0px;
-  margin-top: 30px;
-}
-
-.navbar-nav li a {
-  text-align: right;
-  font-family: 'PT Serif', serif;
-  font-weight: 500;
-  font-size: 20px;
-  padding-top: 25px;
-}
-
-.navbar-toggle .icon-bar {
-  background-color: #E8410C;
-  height: 5px;
-  width: 30px;
-}
-
-/*method to keep navbar always collapsed*/
-@media (max-width: 2000px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-    }
-    .navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-  }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-    margin-top: 7.5px;
-  }
-  .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-      display:block !important;
-  }
-}
-
-
 .jumbotron {
   background: rgba(16, 10, 4, 0.8);
   margin-bottom: 0px;
@@ -98,6 +39,12 @@ html, body {
 
 .sections h1 {
   text-align: center;
+  padding-bottom: 25px;
+}
+
+.project-head {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 p.lead {
@@ -105,16 +52,25 @@ p.lead {
 }
 
 #projects {
-  background: #e7d1bc;
+  background: rgba(16, 10, 4, 0.8);
+  font-family: 'PT Serif', serif;
+  padding-bottom: 25px;
+  color: #e7d1bc;
 }
 
+#projects p {
+  font-size: 16px;
+}
 
-#resume {
-  background: rgba(16, 10, 4, 0.5);
+.stack {
+  padding-left: 25px;
+  padding-right: 10px;
 }
 
 #contact {
-  background: #e7d1bc;
+  background: rgba(16, 10, 4, 0.8);
+  min-height: 150px;
+  /*background: #e7d1bc;*/
 }
 
 a {
@@ -136,20 +92,26 @@ a {
   vertical-align: bottom;
   font-family: 'PT Serif', serif;
   font-weight: 200;
-  color: white;
+  color: #e7e4e1;
 }
 
 #icon_group {
- text-align: center;
  margin-top: 20px;
  margin-right: 100px;
 }
 
 #footer {
-  margin-top: 30px;
+  margin-top: 50px;
   text-align: center;
   font-family: 'PT Serif', serif;
   font-weight: 400;
   font-size: 14px;
-  color: #e7d1bc;
+  color: #e7e4e1;
+ }
+
+ #footer a {
+  color: black;
+ }
+ #footer p {
+  margin-top: 25px;
  }

@@ -13,31 +13,7 @@
 
 </head>
 
-<body>
-<!--     <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar-items" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div> -->
-
-       <!--  define toggle menu -->
-            
-            <!-- Collect the nav links, forms, and other content for toggling -->
-<!--             <div class="collapse navbar-collapse" id="nav-bar-items">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul> -->
-            <!-- </div> /.navbar-collapse -->
-        <!-- </div> /.container-fluid -->
-    <!-- </nav> -->
-    
+<body>    
     <div class="jumbotron">
         <div class="container-fluid">
             <div class="col-lg-6">
@@ -50,6 +26,7 @@
                 <ul class="list-inline" id="icon_group">
                     <li id="connect">Let's Connect!</li>
                     <li class="icons"><a href="https://www.github.com/jcshott"><img src="GitHub-icon.png"></img></a></li>
+                    <li class="icons"><a href="https://www.linkedin.com/in/coreyshott" target="new"><img src="LinkedIn-InBug-2CRev.png"></img></a></li>
                     <li class="icons"><a href="mailto:jcshott@gmail.com"><img src="email_icon.png"></img></a></li>
                     <li class="icons"><a href="https://twitter.com/jcshott" target="new"><img src="twitter_icon.png"></img></a></li>
                 </ul>
@@ -59,33 +36,40 @@
     
     <div class="container-fluid col-lg-12 sections" id="projects">
         <h1>Projects</h1>
-        <p class="lead">A Few Projects I've Worked On</p>
 
         <div class="col-lg-6">
-            <h3>Congressional Money Trail</h3>
-            <img src="moneytrail_ss.png" class="img-responsive img-thumbnail" alt="Responsive image">
-            <p>Campaign contributions to our federal officials are publicly disclosed but rarely easy to access. Utilizing the past decade of campaign contribution data, <a href="https://www.github.com/jcshott/Congressional Money Trail seeks to help the public better understand from where their federal congressional representatives receive their campaign money. Just select a state or find a Member of Congress by address and a visual representation of how they finance their campaigns is revealed.
+            <h3 class="project-head">Congressional Money Trail</h3>
+            <a  href="https://github.com/jcshott/Congressional_Money_Trail" target="new"><img src="moneytrail_ss.png" class="img-responsive img-rounded" alt="Congressional Money Trail screenshot"></a>
+            <h4>Congressional Money Trail was my independent, final project at Hackbright Academy in the summer of 2015.</h4>
+            <p>Campaign contributions to our federal officials are publicly disclosed but rarely easy to access. Using the past decade of campaign contribution data, <a href="https://github.com/jcshott/Congressional_Money_Trail" target="new"> Congressional Money Trail </a> utilizes the power of data visualization through D3.js library to help the public better understand from where their federal congressional representatives receive their campaign money.</p>
+            <p class="text-justify"><strong>Tech Stack:</strong> Python, Flask, SQLite, SQLAlchemy ORM, D3.js, jQuery, JS, AJAX, HTML, CSS, Sunlight Foundation CongressAPI, Google Geocode API</p>
         </div>
 
         <div class="col-lg-6">
-            <h3>InsureCare</h3>
-            <img src="insurecare.png" class="img-responsive img-thumbnail" alt="Responsive image">
+            <h3 class="project-head">InsureCare</h3>
+            <a  href="https://github.com/jessanettica/InsureMe" target="new"><img src="insurecare.png" class="img-responsive img-rounded" alt="InsureCare screenshot"></a>
+            <h4>InsureCare was developed at the Integrate 2015 Hackathon where it placed in the Top 5 overall and won the sponsor prize.</h4>
+            <p>Finding the best health insurance coverage is daunting. You want to know what options are available to you, what they offer, and which ones you can afford. Knowing if and how many doctors are available to serve your health needs under a particular insurance is important. <a href="https://github.com/jessanettica/InsureMe" target="new">InsureCare</a> helps you find how many doctors are covered by a particular insurance given an address and a radius.</p>
+            <p class="text-justify"><strong>Tech Stack</strong>: Python, AJAX/JSON, Jinja2, D3.js, BetterDoctor API, Google Maps API</p>
         </div>
-
     </div>
-    <div class="container-fluid col-lg-12 sections" id="resume">
-        <h1>Experience</h1>
-        <p class="lead">A Full-Stack Software Engineer with a Varied Background</p>
+    <div class="container-fluid col-lg-12" id="contact">
+        <div id="footer">
+            <ul class="list-inline">
+                <li class="icons"><a href="https://www.github.com/jcshott"><img src="GitHub-icon.png"></img></a></li>
+                <li class="icons"><a href="https://www.linkedin.com/in/coreyshott" target="new"><img src="LinkedIn-InBug-2CRev.png"></img></a></li>
+                <li class="icons"><a href="mailto:jcshott@gmail.com"><img src="email_icon.png"></img></a></li>
+                <li class="icons"><a href="https://twitter.com/jcshott" target="new"><img src="twitter_icon.png"></img></a></li>
+            </ul>
+
+            <p> (c) Corey Shott 2015 | Icons provided by <a href="https://thenounproject.com/mmpezzi/" target="new">Maria Maldonado </a> via the Noun Project </p>
+        <div>
     </div>
-        <div class="container-fluid col-lg-12 sections" id="contact">
-        <h1>Contact</h1>
-        <p class="lead">Let's Connect!</p>
-    </div>
 
 
 
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- <script src="http://code.jquery.com/jquery.js"></script> -->
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 
 </body>
 </html>
