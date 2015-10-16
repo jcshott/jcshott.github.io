@@ -15,13 +15,28 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top navbar-collapse">
-        <div class="container">
-            <ul class="nav navbar-nav">
-                <li><a href="#projects">Projects</a></li>
-            </ul>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar-items" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+       <!--  define toggle menu -->
             
-        </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="nav-bar-items">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid -->
     </nav>
     
     <div class="jumbotron">
@@ -41,6 +56,9 @@
     </div>
     <div class="container col-lg-12" id="resume">
         <h1>Resume</h1>
+    </div>
+        <div class="container col-lg-12" id="contact">
+        <h1>Contact</h1>
     </div>
 
 

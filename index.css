@@ -1,28 +1,37 @@
 html, body {
   width: 100%;
   height: 100%;
-  overflow: visible;
+  /*overflow: visible;*/
 }
 
 .navbar .navbar-fixed-top {
   background-color: rgba(16, 10, 4, 0.8);
   margin-bottom: 0px;
+  margin-top: 30px;
 }
 
-/*.jumbotron {
-  background-image: url(IMG_8398.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  color: #000;
-  line-height: 1.3;
-  -webkit-font-smoothing: antialiased;
+.navbar-nav li a {
+  text-align: right;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 25px;
+}
 
+/*.icon-bar {
+  background-color: #E8410C;
+  size: 100px;
 }*/
-
+.navbar-toggle .icon-bar {
+  background-color: #E8410C;
+  height: 5px;
+  width: 30px;
+}
 .jumbotron {
   background: rgba(16, 10, 4, 0.8);
   margin-bottom: 0px;
+  height: 700px;
+  padding-top: 100px;
 }
 
 .jumbotron h1 {
@@ -47,17 +56,16 @@ html, body {
 
 #profile_pic {
   width: 400px;
-  margin-left: 100px;
   margin-top: 15px;
 }
 
-#external_links {
+/*#external_links {
   text-align: center;
   font-family: 'PT Serif', serif;
   font-weight: 700;
   font-size: 33px;
   color: #e7d1bc;
-}
+}*/
 
 #projects {
   background: #e7d1bc;
@@ -67,8 +75,13 @@ html, body {
   background: rgba(16, 10, 4, 0.5);
 }
 
+
 a {
   color: #E8410C;
+}
+
+#menu {
+  width: 50px;
 }
 
 .icons img {
@@ -80,11 +93,12 @@ a {
  text-align: center;
  margin-top: 20px;
 }
- #footer {
-    margin-top: 30px;
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #e7d1bc;
+
+#footer {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #e7d1bc;
  }
