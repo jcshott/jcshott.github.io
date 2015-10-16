@@ -66,8 +66,8 @@ html, body {
 .jumbotron {
   background: rgba(16, 10, 4, 0.8);
   margin-bottom: 0px;
-  min-height: 750px;
-  padding-top: 150px;
+  min-height: 500px;
+  /*padding-top: 150px;*/
 }
 
 .jumbotron h1 {
@@ -75,10 +75,10 @@ html, body {
     font-family: 'PT Serif', serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 88px;
+    font-size: 75px;
     text-align: left;
     margin-right: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .jumbotron p {
@@ -93,7 +93,7 @@ html, body {
 #profile_pic {
   width: 400px;
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .sections h1 {
@@ -130,9 +130,19 @@ a {
 
 }
 
+#connect {
+  margin-right: 10px;
+  font-size: 30px;
+  vertical-align: bottom;
+  font-family: 'PT Serif', serif;
+  font-weight: 200;
+  color: white;
+}
+
 #icon_group {
  text-align: center;
  margin-top: 20px;
+ margin-right: 100px;
 }
 
 #footer {
