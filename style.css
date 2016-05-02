@@ -32,8 +32,8 @@ html, body {
 }
 
 #profile_pic {
-  width: 400px;
-  margin-top: 15px;
+  width: 500px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 
@@ -70,7 +70,6 @@ p.lead {
 #contact {
   background: rgba(16, 10, 4, 0.8);
   min-height: 150px;
-  /*background: #e7d1bc;*/
 }
 
 a {
@@ -81,9 +80,12 @@ a {
   width: 50px;
 }
 
-.icons img {
-  width: 50px;
+.icons i {
+  color: #E8410C;
+}
 
+#footer .icons i {
+  color: rgb(16, 10, 4);
 }
 
 #connect {
@@ -109,9 +111,7 @@ a {
   color: #e7e4e1;
  }
 
-/* #footer a {
-  color: black;
- }*/
+
  #footer p {
   margin-top: 25px;
  }
