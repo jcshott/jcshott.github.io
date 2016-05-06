@@ -62,6 +62,11 @@ p.lead {
 
 #projects p {
   font-size: 16px;
+  color: #e7d1bc;
+}
+
+#projects h4 {
+    color: #e7d1bc;
 }
 
 .stack {
