@@ -32,7 +32,7 @@ h2 {
     font-size: 120%;
     font-weight: bold;
     border-bottom: 2px solid black;
-    color: #E8410C;
+    color: #0D47A1;
     margin: 12px 0;
 }
 
@@ -62,18 +62,16 @@ li {
 /* icons for skills/tools */
 .info img {
     width: 15px;
-    color: #E8410C;
 }
 
 /* assume images are icons */
 /* icons for contact info */
 .info a img {
     width: 12px;
-    color: #E8410C;
 }
 
 a {
-    color: #E8410C;
+    color: #0D47A1;
 }
 
 code {
