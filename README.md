@@ -5,10 +5,7 @@
 <span class="info">
 <i> Full Stack Software developer based in Boulder, Colorado</i> <br>
 
-
-[![Mail](https://simpleicons.org/icons/gmail.svg) jcshott@gmail.com](mailto:jcshott@gmail.com)
-[![GitHub](https://simpleicons.org/icons/github.svg) github.com/jcshott](https://github.com/jcshott)
-[![LinkedIn](https://simpleicons.org/icons/linkedin.svg) linkedin.com/in/coreyshott](https://linkedin.com/in/coreyshott)
+_[Github](https://github.com/jcshott)_, _[LinkedIn](https://linkedin.com/in/coreyshott)_ <br>
 
 </span>
 
