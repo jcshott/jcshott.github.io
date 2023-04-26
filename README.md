@@ -15,7 +15,7 @@ Python, JavaScript, Reactjs, Golang, Erlang, Flask, Jinja2, SQLAlchemy, jQuery, 
 
 ## 🏢 Professional Experience
 
-### Staff Software Engineer <time> Nov 2016 – Present </time>
+### Lead Software Engineer <time> Nov 2016 – Present </time>
 
 <location> NextRoll, San Francisco, CA & Remote </location>
 
